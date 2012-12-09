@@ -1,0 +1,13 @@
+.editButtons {
+	display: none;
+	position: absolute;
+	margin-top: -20px;
+}
+
+.edited .editButtons{
+	display: block;
+}
+
+span.backup{
+	display: none;
+}
