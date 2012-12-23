@@ -24,13 +24,9 @@
 				<configuration>
 					<webResources>
 						<resource>
-							<directory>static</directory>
+							<directory>/</directory>
 							<includes>
-								<include>favicon.ico</include>
-								<include>**/css/*.css</include>
-								<include>**/images/*.jpg</include>
-								<include>**/images/*.png</include>
-								<include>**/js/*.js</include>
+								<include>static/**</include>
 							</includes>
 						</resource>
 					</webResources>
@@ -44,6 +40,12 @@
 			<groupId>org.web-tree</groupId>
 			<artifactId>wt-core</artifactId>
 			<version>0.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>javax</groupId>
+					<artifactId>javaee-api</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.web-tree</groupId>
@@ -54,16 +56,6 @@
 			<groupId>freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>2.3.9</version>
-		</dependency>
-		<dependency>
-			<groupId>javax</groupId>
-			<artifactId>javaee-api</artifactId>
-			<version>6.0</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
 		</dependency>
 	</dependencies>
 
