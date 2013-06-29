@@ -4,8 +4,8 @@
  * Time: 17:34
  */
 $(document).ready(function(){
-	var fieldEdit = new FieldEdit();
-	fieldEdit.init(".editable");
+//	var fieldEdit = new FieldEdit();
+//	fieldEdit.init(".editable");
 });
 //
 //function WTWidgets() {

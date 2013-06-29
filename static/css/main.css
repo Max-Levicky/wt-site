@@ -11,6 +11,10 @@ html, body, ul {
 	font-weight: normal;
 }
 
+.block {
+    display: block;
+}
+
 .cleaner {
 	border: 0 none;
 	clear: both;

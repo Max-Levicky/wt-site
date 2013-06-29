@@ -1,3 +1,4 @@
+<#-- @ftlvariable name="content" type="java.lang.String" -->
 <#-- @ftlvariable name="menu" type="org.webtree.Menu.Model.MenuModel[]" -->
 <!DOCTYPE html>
 <html>
@@ -7,6 +8,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="static/css/common.css">
 	<link rel="stylesheet" type="text/css" href="static/css/editableField.css">
+	<link rel="stylesheet" type="text/css" href="static/css/modern.css">
 	<link rel="shortcut icon" type="image/x-icon" href="${helper.getBaseUrl()}static/favicon.ico"/>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script>
@@ -25,7 +27,7 @@
 	<script src="${helper.getBaseUrl()}static/js/fieldEdit.js"></script>
 	<script src="${helper.getBaseUrl()}static/js/widgets.js"></script>
 </head>
-<body>
+<body class="metrouicss">
 
 <#--<div id="right_buttons">-->
 <#--<div class="buttons button1"><p><a href="#">Помочь проекту</a></p></div>-->
@@ -75,7 +77,7 @@
 	${content}
 	</div>
 </div>
-<footer>&copy; 2012 Web-Tree.org</footer>
+<#--<footer>&copy; 2012 Web-Tree.org</footer>-->
 <div id="info"></div>
 </body>
 </html>
