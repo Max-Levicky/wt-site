@@ -1,4 +1,4 @@
-package org.webtree.Site.Model;
+package org.webtree.site.Model;
 
 import org.webtree.Base.MVC.BaseModel;
 

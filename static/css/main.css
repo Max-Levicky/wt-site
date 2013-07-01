@@ -111,7 +111,7 @@ html, body, ul {
 }
 
 #header_container .logo {
-	background: url('static/images/logo.png');
+	background: url('/static/images/logo.png');
 	width: 105px;
 	height: 89px;
 	display: block;

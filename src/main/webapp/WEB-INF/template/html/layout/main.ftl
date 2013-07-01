@@ -6,9 +6,9 @@
 	<title></title>
 	<base href="${helper.getBaseUrl()}" />
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<link rel="stylesheet" type="text/css" href="static/css/common.css">
-	<link rel="stylesheet" type="text/css" href="static/css/editableField.css">
-	<link rel="stylesheet" type="text/css" href="static/css/modern.css">
+	<link rel="stylesheet" type="text/css" href="${helper.getBaseUrl()}static/css/common.css">
+	<link rel="stylesheet" type="text/css" href="${helper.getBaseUrl()}static/css/editableField.css">
+	<link rel="stylesheet" type="text/css" href="${helper.getBaseUrl()}static/css/modern.css">
 	<link rel="shortcut icon" type="image/x-icon" href="${helper.getBaseUrl()}static/favicon.ico"/>
 	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 	<script>

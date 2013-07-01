@@ -1,4 +1,4 @@
-package org.webtree.Site.View;
+package org.webtree.site.View;
 
 import org.webtree.Base.BaseModule.BaseModuleView;
 
