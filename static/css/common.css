@@ -1,3 +1,5 @@
 @CHARSET "UTF-8";
-@import url("bootstrap.min.css") screen;
+/*@import url("bootstrap.min.css") screen;*/
 @import url("main.css") screen;
+@import url("modern.css") screen;
+@import url("editableField.css") screen;

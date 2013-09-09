@@ -43,7 +43,7 @@ html, body, ul {
 }
 
 #header .logo_container .title {
-	margin: 10px 0 0 110px;
+	margin: 10px 0 0 100px;
 
 }
 
@@ -75,6 +75,7 @@ html, body, ul {
 #nav {
 	text-align: right;
 	float: right;
+	margin-top: 12px;
 }
 
 #nav li.first {
@@ -112,8 +113,8 @@ html, body, ul {
 
 #header_container .logo {
 	background: url('/static/images/logo.png');
-	width: 105px;
-	height: 89px;
+	width: 90px;
+	height: 90px;
 	display: block;
 	float: left;
 	position: absolute;
@@ -121,6 +122,7 @@ html, body, ul {
 
 #header_container .logo_container {
 	float: left;
+	margin-left: 10px;
 }
 
 #sub_header {
@@ -467,4 +469,9 @@ ul.chat_ul a {
 	color: #231f20;
 	font-size: 11px;
 	font-weight: bold;
+}
+
+/* Metro UI extends */
+.metrouicss .bg-color-wtGreen {
+	background-color: #79BA00 !important;
 }
